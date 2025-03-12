@@ -1,0 +1,20 @@
+<mvc:View controllerName="techleapproj.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" class="backgroundimage">
+    <headerContent>
+    <Image id="img" class="align" src="/images/accenture logo.jpg" width="70px" ></Image>
+    <Text id="txt1" text="Accenture DashBoard" ></Text>
+    </headerContent>
+    <content>
+    <VBox id="vbox" class="center">
+    <Input id="ip1" placeholder="username" width="250px"></Input>
+    <Input id="ip2"  type="Password" placeholder="password" width="250px"></Input>
+    </VBox>
+    <HBox id="hbox" class="centerbtns">
+    <Button id="btn1" class="loginbtn" text="Login"></Button>
+    <Button id="btn2" class="resetbtn" text="Reset"></Button>
+    </HBox>
+    </content>
+    </Page>
+</mvc:View>
