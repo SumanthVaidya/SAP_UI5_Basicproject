@@ -4,7 +4,7 @@
     background-size: cover; /* Makes the image cover the whole element */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Ensures the image does not repeat */
-}             
+}          
 .center{
     display: flex;
     justify-content: center;
@@ -19,4 +19,20 @@
 .loginbtn{
     margin-right: 12px;
     width: 180px;
+}
+.hboxclass{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 250px;
+}
+.vboxclass{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:50px 50px 50px 50px ;
+}
+.allempclass{
+    background-color: aqua;
+    color: black;
+    font-style: italic;
 }

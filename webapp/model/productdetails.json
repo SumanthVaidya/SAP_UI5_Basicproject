@@ -1,0 +1,14 @@
+{
+    "productinformation" : [
+    {
+        "productname":"Smart Watch",
+        "productprice":"1999",
+        "productcurrency":"INR"
+    },
+    {
+        "productname":"Laptop",
+        "productprice":"80000",
+        "productcurrency":"$"
+    }
+]
+}

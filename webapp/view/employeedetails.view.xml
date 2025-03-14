@@ -1,0 +1,66 @@
+<mvc:View controllerName="techleapproj.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page3" title="Employee details">
+    <headerContent>
+    <Toolbar id="toolbar1">
+    <Button id="backarrow" type="Back" press="onback" ></Button>
+   <Button id="logout" text="Logout" type="Reject" press="onlogout"></Button>
+    </Toolbar>
+      </headerContent>
+    <content>
+    <Toolbar id="emptytoolbar" height="30px"></Toolbar>
+    <Text id="allemp" text="All Employee Details" class="allempclass"></Text>
+      <Table id="table1">
+      <columns>
+      <Column id="column1">
+      <Text id="t1" text="Name"></Text>
+      </Column>
+       <Column id="column2">
+      <Text id="t2" text="Salary"></Text>
+      </Column>
+       <Column id="column3">
+      <Text id="t3" text="Currency"></Text>
+      </Column>
+       <Column id="column4">
+      <Text id="t4" text="Designation"></Text>
+      </Column>
+      </columns>
+      <items>
+      <ColumnListItem id="collistitemid">
+      <cells>
+      <Text id="tx1" text="A"></Text>
+      <Text id="tx2" text="5L"></Text>
+      <Text id="tx3" text="$"></Text>
+      <Text id="tx4" text="DU"></Text>
+      </cells>
+      </ColumnListItem>
+      <ColumnListItem id="collistitemid1">
+      <cells>
+      <Text id="tx5" text="B"></Text>
+      <Text id="tx6" text="2L"></Text>
+      <Text id="tx7" text="$"></Text>
+      <Text id="tx8" text="AM"></Text>
+      </cells>
+      </ColumnListItem>
+       <ColumnListItem id="collistitemid2">
+      <cells>
+      <Text id="tx9" text="C"></Text>
+      <Text id="tx10" text="1L"></Text>
+      <Text id="tx11" text="$"></Text>
+      <Text id="tx12" text="TL"></Text>
+      </cells>
+      </ColumnListItem>
+      <ColumnListItem id="collistitemid3">
+      <cells>
+      <Text id="tx13" text="D"></Text>
+      <Text id="tx14" text="0.5L"></Text>
+      <Text id="tx15" text="$"></Text>
+      <Text id="tx16" text="AASE"></Text>
+      </cells>
+      </ColumnListItem>
+      </items>
+      </Table>
+      </content>
+    </Page>
+</mvc:View>

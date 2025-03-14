@@ -51,6 +51,10 @@
                 "settings": {
                     "bundleName": "techleapproj.i18n.i18n"
                 }
+            },
+            "proddetails":{
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "./model/productdetails.json"
             }
         },
         "resources": {
@@ -75,9 +79,37 @@
             "routes": [
                 {
                     "name": "RouteView1",
-                    "pattern": ":?query:",
+                    "pattern": "",
                     "target": [
                         "TargetView1"
+                    ]
+                },
+                {
+                    "name": "Routesecondpage",
+                    "pattern": "Loggedin",
+                    "target": [
+                        "Targetsecondpage"
+                    ]
+                },
+                 {
+                    "name": "Routeemployeedetails",
+                    "pattern": "Empdetails",
+                    "target": [
+                        "Targetemployeedetails"
+                    ]
+                },
+                {
+                    "name": "Routeproductdetails",
+                    "pattern": "proddetails",
+                    "target": [
+                        "Targetproductdetails"
+                    ]
+                },
+                {
+                    "name": "Routesalesdetails",
+                    "pattern": "salesdetails",
+                    "target": [
+                        "Targetsalesdetails"
                     ]
                 }
             ],
@@ -85,6 +117,22 @@
                 "TargetView1": {
                     "id": "View1",
                     "name": "View1"
+                },
+                "Targetsecondpage": {
+                    "id": "secondpage",
+                    "name": "secondpage"
+                },
+                "Targetemployeedetails": {
+                    "id": "employeedetails",
+                    "name": "employeedetails"
+                },
+                "Targetproductdetails": {
+                    "id": "productdetails",
+                    "name": "productdetails"
+                },
+                "Targetsalesdetails": {
+                    "id": "salesdetails",
+                    "name": "salesdetails"
                 }
             }
         },

@@ -1,0 +1,29 @@
+<mvc:View controllerName="techleapproj.controller.secondpage"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page2">
+    <HBox id="hbox1" class="hboxclass">
+    <VBox id="vbox1" class="vboxclass">
+    <Text id="empname" text="Employee" textAlign="Begin"></Text>
+    <Text id="empdetails" text="Details" textAlign="Begin"></Text>
+    <Image id="img_1" src="/images/accenture logo.jpg" width="50px"></Image>
+    <Text id="empcount" text="Total count = 4"></Text>
+    <Button id="empbutton" text="See details" press="onempdetails"></Button>
+    </VBox>
+    <VBox id="vbox2" class="vboxclass">
+     <Text id="prod" text="Product" textAlign="Begin"></Text>
+    <Text id="details" text="Details" textAlign="Begin"></Text>
+     <Image id="img_2" src="/images/accenture logo.jpg" width="50px"></Image>
+     <Text id="prodcount" text="Total count = 7"></Text>
+     <Button id="prodbutton" text="See details" press="onprod"></Button>
+    </VBox>
+    <VBox id="vbox3" class="vboxclass">
+     <Text id="sales" text="Sales" textAlign="Begin"></Text>
+    <Text id="report" text="Report" textAlign="Begin"></Text>
+     <Image id="img_3" src="/images/accenture logo.jpg" width="50px"></Image>
+     <Text id="salescount" text="Total count = $380"></Text>
+     <Button id="salesbutton" text="See details" press="onsales"></Button>
+    </VBox>
+    </HBox>
+    </Page>
+</mvc:View>

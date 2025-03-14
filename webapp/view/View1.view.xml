@@ -12,7 +12,7 @@
     <Input id="ip2"  type="Password" placeholder="password" width="250px"></Input>
     </VBox>
     <HBox id="hbox" class="centerbtns">
-    <Button id="btn1" class="loginbtn" text="Login"></Button>
+    <Button id="btn1" class="loginbtn" text="Login" press="onlogin"></Button>
     <Button id="btn2" class="resetbtn" text="Reset"></Button>
     </HBox>
     </content>

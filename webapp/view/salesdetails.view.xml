@@ -1,0 +1,7 @@
+<mvc:View controllerName="techleapproj.controller.secondpage"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page5">
+
+    </Page>
+</mvc:View>
