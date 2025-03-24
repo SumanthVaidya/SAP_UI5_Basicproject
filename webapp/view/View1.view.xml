@@ -13,7 +13,7 @@
     </VBox>
     <HBox id="hbox" class="centerbtns">
     <Button id="btn1" class="loginbtn" text="Login" press="onlogin"></Button>
-    <Button id="btn2" class="resetbtn" text="Reset"></Button>
+    <Button id="btn2" class="resetbtn" text="Reset" press="onreset"></Button>
     </HBox>
     </content>
     </Page>

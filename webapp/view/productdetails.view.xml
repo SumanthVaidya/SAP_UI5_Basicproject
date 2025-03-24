@@ -1,28 +1,23 @@
-<mvc:View controllerName="techleapproj.controller.secondpage"
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page4">
-     <content>
-    <List id="lst" items="{proddetails>/productinformation}"
-    headerText="Products" headerLevel="H3">
-    <ObjectListItem id="oli" title="{proddetails>productname}" 
-    number="{proddetails>productprice}"
-    numberUnit="{proddetails>productcurrency}"/>
-    </List>
-
-
-
-
-
-
-        <!-- <List id="lst" items="smart">
-            <items>
-                <ObjectListItem id="objlst" title="Smart Watch"
-                number="18"
-                numberState="{18?'Success':'Error'}">
-                </ObjectListItem>
-            </items>
-        </List> -->
-    </content>
-    </Page>
+<mvc:View
+	controllerName="techleapproj.controller.secondpage"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<List id="lst"
+		items="{proddetails>/productinformation}"
+		headerText="Products">
+		<ObjectListItem id="obl"
+			title="{proddetails>productname}"
+			type="Active"
+			press="onListItemPress"
+			number="{proddetails>productprice}"
+            numberUnit="{proddetails>productcurrency}">
+            	<firstStatus>
+			<ObjectStatus id="obsstatus"
+							class="sapUiSmallMarginBottom"
+							text="{proddetails>prodstatetext}"
+							state="{proddetails>prodstate}" />
+			</firstStatus>
+			<ObjectAttribute id="oa1" text="Quantity:{proddetails>prodquantity}" />
+		</ObjectListItem>
+	</List>
 </mvc:View>

@@ -3,12 +3,58 @@
     {
         "productname":"Smart Watch",
         "productprice":"1999",
-        "productcurrency":"INR"
+        "productcurrency":"INR",
+        "prodquantity":"5",
+        "prodstate":"Error",
+        "prodstatetext":"Discontinued"
     },
     {
         "productname":"Laptop",
         "productprice":"80000",
-        "productcurrency":"$"
+        "productcurrency":"$",
+        "prodquantity":"1",
+        "prodstate":"Success",
+        "prodstatetext":"Available"
+    },
+    {
+        "productname":"Desktop",
+        "productprice":"10000",
+        "productcurrency":"EUR",
+        "prodquantity":"25",
+        "prodstate":"Warning",
+        "prodstatetext":"Out of stock"
+    },
+    {
+        "productname":"CPU",
+        "productprice":"12000",
+        "productcurrency":"$",
+        "prodquantity":"15",
+        "prodstate":"Success",
+        "prodstatetext":"Available"
+    },
+    {
+        "productname":"Earphones",
+        "productprice":"7000",
+        "productcurrency":"INR",
+        "prodquantity":"5",
+        "prodstate":"Success",
+        "prodstatetext":"Available"
+    },
+    {
+        "productname":"HardDisk",
+        "productprice":"30000",
+        "productcurrency":"$",
+        "prodquantity":"50",
+        "prodstate":"Warning",
+        "prodstatetext":"Out of stock"
+    },
+    {
+        "productname":"TV",
+        "productprice":"200000",
+        "productcurrency":"INR",
+        "prodquantity":"25",
+        "prodstate":"Error",
+        "prodstatetext":"Discontinued"
     }
 ]
 }

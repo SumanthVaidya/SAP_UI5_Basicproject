@@ -1,4 +1,4 @@
-<mvc:View controllerName="techleapproj.controller.View1"
+<mvc:View controllerName="techleapproj.controller.employeedetails"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page3" title="Employee details">
